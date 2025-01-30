@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "142228a9bd7a45f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f79da8aef727505",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5cf2dd4350840a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "post_md/Adb.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Adb"
+            }
+          },
+          {
+            "id": "1b9a646916d62349",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "post_md/电脑操作系统.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "电脑操作系统"
+            }
+          },
+          {
+            "id": "64746144508cc94a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "post_md/电脑操作系统.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "电脑操作系统"
+            }
+          },
+          {
+            "id": "f534bacb83181760",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "post_md/电脑操作系统.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "电脑操作系统"
+            }
+          },
+          {
+            "id": "152d26a0e7805785",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "post_md/Git.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git"
+            }
+          },
+          {
+            "id": "76a3750ca8639763",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "post_md/Python.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7e5a731b976add3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7cfecc0f0b48a08e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca54ebdf2ffc5149",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "5f768d448f0c6496",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b7683c1bdaae7bf1",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "76a3750ca8639763",
+  "lastOpenFiles": [
+    "post_html/电脑操作系统.html",
+    "post_html/Python.html",
+    "post_html/Onedrive Share 软件分享.html",
+    "post_html/Office.html",
+    "post_html/Git.html",
+    "post_md/Git.md",
+    "post_md/Python.md",
+    "post_md/Onedrive Share 软件分享.md",
+    "post_md/Office.md",
+    "post_md/Adb.md",
+    "post_md/电脑操作系统.md",
+    "about.md",
+    "index.md",
+    "about.html",
+    "index.html",
+    "post_html/index.html",
+    "post_html/adb.html",
+    "post_html/about.html",
+    "post_md/index.md",
+    "post_md/about.md",
+    "config/scripts.js",
+    "post_md/测试一下 5.md",
+    "post_md/测试一下 - 副本 (3).md",
+    "post_md/测试一下 5 - 副本 (3).md",
+    "post_md/测试一下 4 - 副本 (3).md",
+    "post_md/测试一下 3 - 副本 (3).md",
+    "post_md/测试一下 2 - 副本 (3).md",
+    "post_md/测试一下 1 - 副本 (3).md",
+    "post_md/测试一下 - 副本 (2).md",
+    "post_md/测试一下 5 - 副本 (2).md",
+    "post_md/测试一下 4 - 副本 (2).md",
+    "post_md/测试一下 3 - 副本 (2).md",
+    "post_md/测试一下 2 - 副本 (2).md",
+    "post_md/测试一下 1 - 副本 (2).md",
+    "post_md/测试一下 - 副本.md",
+    "post_md/测试一下 5 - 副本.md"
+  ]
+}
