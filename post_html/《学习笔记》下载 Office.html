@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../config/styles.css">
+    <script src="../config/scripts.js"></script>
+    <title>《学习笔记》下载 Office</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="../about.html">关于我</a></li>
+            </ul>
+        </nav>
+    
+        <h1>《学习笔记》下载 Office</h1>
+    </header>
+
+    <div class="body-text">
+
+        <h2>安装步骤</h2>
+        <p>配置 <a href="https://config.office.com/deploymentsettings">office 版本自定义工具</a></p>
+        <p>安装 office</p>
+        <p><code>setup /download config.xml</code></p>
+        <p><code>setup /configure config.xml</code></p>
+        <p>KMS 激活</p>
+        <p><code>cd C:\Program Files\Microsoft Office\Office16</code></p>
+        <p><code>cscript ospp.vbs /sethst:kms.03k.org</code></p>
+        <p><code>cscript ospp.vbs /act</code></p>
+        <p>注意：如果你安装的是32位版本，那么启动命令第一个要改成：cd C:\Program Files (x86)\Microsoft Office\Office16</p>
+        <h3>注意</h3>
+        <p>要删除以前的许可证和缓存的帐户信息：点击下载 <a href="https://download.microsoft.com/download/e/1/b/e1bbdc16-fad4-4aa2-a309-2ba3cae8d424/OLicenseCleanup.zip">OLicenseCleanup.zip</a> 文件，管理员运行 OLicenseCleanup.vbs。</p>
+    
+    </div>
+
+    <footer>
+        <p>&copy; 2025 lichri 版权所有</p>
+    </footer>
+
+</body>
+
+</html>
