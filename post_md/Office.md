@@ -4,17 +4,17 @@
 
 安装 office
 
-setup /download config.xml
+`setup /download config.xml`
 
-setup /configure config.xml
+`setup /configure config.xml`
 
 KMS 激活
 
-cd C:\Program Files\Microsoft Office\Office16
+`cd C:\Program Files\Microsoft Office\Office16`
 
-cscript ospp.vbs /sethst:kms.03k.org
+`cscript ospp.vbs /sethst:kms.03k.org`
 
-cscript ospp.vbs /act
+`cscript ospp.vbs /act`
 
 注意：如果你安装的是32位版本，那么启动命令第一个要改成：cd C:\Program Files (x86)\Microsoft Office\Office16
 

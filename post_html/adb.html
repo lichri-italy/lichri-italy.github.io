@@ -26,16 +26,16 @@
         <h2>操作步骤</h2>
         <p>下载 <a href="https://suanpersonale-my.sharepoint.com/:u:/g/personal/suan_suanpersonale_onmicrosoft_com/Ef9BMRkeAk9JntkCaMaHKh4BkEdp4tawMTbMxHNFDngVqQ?e=ACPWH0">Adb 便携包</a></p>
         <p>连接 adb</p>
-        <p>adb connect 127.0.0.1:58526</p>
+        <p><code>adb connect 127.0.0.1:58526</code></p>
         <h3>安装应用</h3>
-        <p>adb install 安装包路径</p>
+        <p><code>adb install 安装包路径</code></p>
         <h3>卸载应用</h3>
         <p>查看手机应用包列表</p>
-        <p>adb shell pm list packages</p>
+        <p><code>adb shell pm list packages</code></p>
         <p>查看特定应用的包名，回车后，启动你想要获取包名的应用</p>
-        <p>adb shell am monitor</p>
+        <p><code>adb shell am monitor</code></p>
         <p>删除命令</p>
-        <p>adb shell pm uninstall -k --user 0 应用包名</p>
+        <p><code>adb shell pm uninstall -k --user 0 应用包名</code></p>
     
     </div>
 

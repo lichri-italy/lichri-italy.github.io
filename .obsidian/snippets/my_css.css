@@ -1,0 +1,46 @@
+
+/* 设置加粗文本的颜色 */
+.markdown-preview-view strong,
+.cm-s-obsidian span.cm-strong {
+	color: #c34c60; /* 设置加粗文本的颜色为 #c34c60 */
+}
+
+/* 设置斜体文本的颜色 */
+i, em, span.cm-em {
+	color: #f97d1c; /* 设置斜体文本的颜色为 #f97d1c */
+}
+
+/* 修改高亮文本的背景颜色 */
+.markdown-preview-view mark,
+.cm-s-obsidian span.cm-highlight {
+	background-color: #143a4e; /* 设置高亮文本的背景颜色为 #143a4e */
+	color: #c8c8c8; /* 设置高亮文本的字体颜色为 #c8c8c8 */
+}
+
+/* 行内代码样式 */
+.markdown-preview-view code,
+.cm-s-obsidian span.cm-inline-code, .cm-s-obsidian code {
+    font-size: calc(1em - 2px); /* 设置字体大小为比正常小 2px */
+    color: gray; /* 设置字体颜色为灰色 */
+    background-color: transparent; /* 不设置背景色 */
+}
+
+/* 二级标题样式 */
+.markdown-preview-view h2,
+.cm-s-obsidian .cm-header-2 {
+	color: #f97d1c !important; /* 设置二级标题的颜色为 #f97d1c */
+	font-weight: bold; /* 设置二级标题为粗体 */
+}
+
+/* 三级标题样式 */
+.markdown-preview-view h3,
+.cm-s-obsidian .cm-header-3 {
+	color: #f97d1c !important; /* 设置三级标题的颜色为 #f97d1c */
+	font-weight: normal; /* 设置三级标题为正常字体 */
+}
+
+/* 设置图片默认大小为 500px */
+.workspace-leaf-content img {
+	width: 500px; /* 设置图片宽度为 500px */
+	height: auto; /* 高度自适应 */
+}
