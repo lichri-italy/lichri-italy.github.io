@@ -15,6 +15,11 @@ h1 {
     text-align: center;
 }
 
+a, a:link, a:visited, a:hover, a:active {
+    color: rgb(101, 170, 222);
+    text-decoration: none;
+}
+
 .navbar {
     list-style-type: none;
     padding: 0;
@@ -60,8 +65,6 @@ footer {
 .post-item a {
     font-size: 1.2em;
     font-weight: bold;
-    color: #610d88;
-    text-decoration: none;
     display: inline;
     margin-left: -30px;
 }

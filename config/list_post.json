@@ -1,38 +1,38 @@
 [
     {
+        "filename": "Adb",
+        "file_path": "post_html\\Adb.html",
+        "last_modified_time": "2025-01-31T18:54:25.905046",
+        "text_content": "操作步骤\n下载 Adb 便携包\n连接 adb\nadb connect 127.0.0.1:58526\n安装应用\nadb install 安装包路径\n卸载应用\n查看手机应用包列表\nadb shell pm list packages\n查看特定应用的包名，回车后，启动你想要获取包名的应用\nadb shell am monitor\n删除命令\nadb shell pm uninstall -k --use"
+    },
+    {
+        "filename": "Office",
+        "file_path": "post_html\\Office.html",
+        "last_modified_time": "2025-01-31T18:54:13.048169",
+        "text_content": "安装步骤\n配置 office 版本自定义工具\n安装 office\nsetup /download config.xml\nsetup /configure config.xml\nKMS 激活\ncd C:\\Program Files\\Microsoft Office\\Office16\ncscript ospp.vbs /sethst:kms.03k.org\ncscript ospp.vbs /act\n"
+    },
+    {
         "filename": "Python",
         "file_path": "post_html\\Python.html",
-        "last_modified_time": "2025-01-30T19:00:40.865030",
+        "last_modified_time": "2025-01-31T18:53:57.387233",
         "text_content": "打包程序为 exe\npip install pyinstaller\npyinstaller --onefile --noconsole your_script.py\nPyInstaller 将会开始打包你的项目，并在打包完成后生成一个 dist 文件夹，其中包含了打包好的 .exe 文件以及项目的依赖项。"
     },
     {
         "filename": "Git",
         "file_path": "post_html\\Git.html",
-        "last_modified_time": "2025-01-30T18:59:28.948320",
+        "last_modified_time": "2025-01-31T18:53:51.421999",
         "text_content": "配置\n配置用户名和邮箱\ngit config --global user.name \"你的用户名\"\ngit config --global user.email \"你的邮箱\"\n这将设置全局用户名和邮箱，以便在提交时识别身份。\n生成SSH密钥\nssh-keygen -t rsa\n将生成的公钥添加到GitHub账户的SSH设置中。\n操作\n回退到某个 commit\ngit log\ngit reset -"
+    },
+    {
+        "filename": "电脑操作系统",
+        "file_path": "post_html\\电脑操作系统.html",
+        "last_modified_time": "2025-01-31T18:53:43.228399",
+        "text_content": "Ubuntu\n下载 Ubuntu 镜像\nYouTube 解说：安装 Ubuntu\nmacOS 14\n下载 macOS 14 镜像\nYouTube 解说：macOS 14，视频需要留意6:50开始之后的部分。\n需要在 GitHub 下载 VM macOS 解锁程序，管理员运行 win-install.cmd\nWindows Tiny 11\n下载 Windows Tiny 11 镜像\nWindows "
     },
     {
         "filename": "Onedrive Share 软件分享",
         "file_path": "post_html\\Onedrive Share 软件分享.html",
         "last_modified_time": "2025-01-30T18:58:12.298775",
         "text_content": "手机软件\n电脑软件"
-    },
-    {
-        "filename": "Office",
-        "file_path": "post_html\\Office.html",
-        "last_modified_time": "2025-01-30T18:58:09.150648",
-        "text_content": "安装步骤\n配置 office 版本自定义工具\n安装 office\nsetup /download config.xml\nsetup /configure config.xml\nKMS 激活\ncd C:\\Program Files\\Microsoft Office\\Office16\ncscript ospp.vbs /sethst:kms.03k.org \ncscript ospp.vbs /act"
-    },
-    {
-        "filename": "Adb",
-        "file_path": "post_html\\Adb.html",
-        "last_modified_time": "2025-01-30T18:58:06.052329",
-        "text_content": "操作步骤\n下载 Adb 便携包\n连接 adb\nadb connect 127.0.0.1:58526\n安装应用\nadb install 安装包路径\n卸载应用\n查看手机应用包列表\nadb shell pm list packages\n查看特定应用的包名，回车后，启动你想要获取包名的应用\nadb shell am monitor\n删除命令\nadb shell pm uninstall -k --use"
-    },
-    {
-        "filename": "电脑操作系统",
-        "file_path": "post_html\\电脑操作系统.html",
-        "last_modified_time": "2025-01-30T18:58:03.802237",
-        "text_content": "Ubuntu\n下载 Ubuntu 镜像\nYouTube 解说：安装 Ubuntu\nmacOS 14\n下载 macOS 14 镜像\nYouTube 解说：macOS 14，视频需要留意6:50开始之后的部分。\n需要在 GitHub 下载 VM macOS 解锁程序，管理员运行 win-install.cmd\nWindows Tiny 11\n下载 Windows Tiny 11 镜像\nWindows "
     }
 ]
