@@ -84,7 +84,7 @@ footer {
     hyphens: auto;
 }
 
-code {
+p code {
     background: #5c5c5c; /* 深色背景 */
     color: rgb(255, 255, 255); /* 字体颜色 */
     font-family: Consolas; /* 代码字体 */
