@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post_md/《学习笔记》打包 Python.md",
+                "file": "post_md/Onedrive Share 软件分享.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "《学习笔记》打包 Python"
+              "title": "Onedrive Share 软件分享"
             }
           }
         ]
@@ -41,7 +41,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -83,8 +84,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ca54ebdf2ffc5149",
+  "active": "e5cf2dd4350840a6",
   "lastOpenFiles": [
+    "post_md/index.md",
+    "post_md/Onedrive Share 软件分享.md",
+    "post_md/about.md",
+    "post_md/《学习笔记》打包 Python.md",
     "post_html/《学习笔记》打包 Python.html",
     "post_html/《学习笔记》下载操作系统.html",
     "post_html/《学习笔记》下载 Office.html",
@@ -95,15 +100,10 @@
     "post_md/《学习笔记》下载操作系统.md",
     "post_md/《学习笔记》Adb.md",
     "post_md/《学习笔记》Git.md",
-    "post_md/《学习笔记》打包 Python.md",
     "post_html/电脑操作系统.html",
     "post_html/Python.html",
     "post_html/Onedrive Share 软件分享.html",
     "post_html/Office.html",
-    "post_html/Git.html",
-    "post_md/about.md",
-    "post_md/index.md",
-    "post_md/Onedrive Share 软件分享.md",
     "index.md",
     "config/index.md",
     "config/about.md",
