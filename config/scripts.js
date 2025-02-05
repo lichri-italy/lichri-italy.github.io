@@ -5,8 +5,6 @@ function loadScript(url) {
     document.getElementsByTagName('head')[0].appendChild(script);
 }
 
-// loadScript('https://code.jquery.com/jquery-3.6.0.min.js');
-
 // ========================================================= //
 
 function loadAndDisplayPosts(containerId) {
