@@ -70,6 +70,13 @@ def move_and_fix_html(src_path, dst_path):
     with open(dst_path, 'w', encoding='utf-8') as f:
         f.write(doc_content)
 
+def delete_files_in_folder(folder_path):
+    # 遍历文件夹中的所有文件
+    for filename in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, filename)
+        # 检查是否为文件并删除
+        if os.path.isfile(file_path):
+            os.remove(file_path)
 
 def main():
     template_path = 'config/template.html'
@@ -82,6 +89,7 @@ def main():
 
     # 确保输出文件夹存在
     os.makedirs(post_html_folder, exist_ok=True)
+    delete_files_in_folder(post_html_folder)
 
     # 读取模板和样式文件
     template_content = read_file_content(template_path)
