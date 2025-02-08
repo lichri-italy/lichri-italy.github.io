@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "《学习笔记》Adb"
             }
+          },
+          {
+            "id": "d1129ccbb311a441",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "post_md/《AI》Ollama.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "《AI》Ollama"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,8 +100,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e5cf2dd4350840a6",
+  "active": "ca54ebdf2ffc5149",
   "lastOpenFiles": [
+    "post_html/《学习笔记》打包 Python.html",
+    "post_html/《学习笔记》下载操作系统.html",
+    "post_html/《学习笔记》下载 Office.html",
+    "post_html/《学习笔记》Git.html",
+    "post_html/《学习笔记》Adb.html",
+    "post_html/《AI》Ollama.html",
+    "post_html/Share 软件分享.html",
+    "post_html/index.html",
+    "post_html/about.html",
+    "post_md/《学习笔记》Adb.md",
+    "post_md/《AI》Ollama.md",
     "post_md/《学习笔记》打包 Python.md",
     "post_md/《学习笔记》下载 Office.md",
     "post_md/《学习笔记》Git.md",
@@ -93,17 +120,8 @@
     "post_md/about.md",
     "post_md/index.md",
     "post_md/Share 软件分享.md",
-    "post_md/《学习笔记》Adb.md",
-    "post_html/index.html",
-    "post_html/about.html",
-    "post_html/《学习笔记》打包 Python.html",
-    "post_html/《学习笔记》下载操作系统.html",
-    "post_html/《学习笔记》下载 Office.html",
-    "post_html/《学习笔记》Git.html",
-    "post_html/《学习笔记》Adb.html",
     "post_html/电脑操作系统.html",
     "post_html/Python.html",
-    "post_html/Onedrive Share 软件分享.html",
     "index.md",
     "config/index.md",
     "config/about.md",
@@ -119,7 +137,6 @@
     "post_md/测试一下 5 - 副本 (2).md",
     "post_md/测试一下 4 - 副本 (2).md",
     "post_md/测试一下 3 - 副本 (2).md",
-    "post_md/测试一下 2 - 副本 (2).md",
-    "post_md/测试一下 1 - 副本 (2).md"
+    "post_md/测试一下 2 - 副本 (2).md"
   ]
 }
