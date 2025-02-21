@@ -1,0 +1,82 @@
+{
+  "main": {
+    "id": "ed61669dfe7ec432",
+    "type": "split",
+    "children": [
+      {
+        "id": "4530abed05e010b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4fe396763adf4be5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "post_md/Share 软件分享.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Share 软件分享"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "75e2106a9d59cd26",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "99fa65ea322e5f76",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "文件列表"
+        }
+      },
+      {
+        "id": "429178da6e73d43e",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "搜索"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "951794056080c43d",
+    "type": "mobile-drawer",
+    "children": [],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "4fe396763adf4be5",
+  "lastOpenFiles": [
+    "post_md/about.md",
+    "post_md/《AI》Ollama.md"
+  ]
+}

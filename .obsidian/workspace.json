@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post_md/《AI》Ollama.md",
+                "file": "post_md/《学习笔记》打包 Python.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "《AI》Ollama"
+              "title": "《学习笔记》打包 Python"
             }
           }
         ],
@@ -100,8 +100,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ca54ebdf2ffc5149",
+  "active": "d1129ccbb311a441",
   "lastOpenFiles": [
+    "post_md/Share 软件分享.md",
+    "post_md/《学习笔记》下载 Office.md",
+    "post_md/《学习笔记》Git.md",
+    "post_md/《学习笔记》下载操作系统.md",
+    "post_md/about.md",
+    "post_md/index.md",
+    "post_md/《学习笔记》Adb.md",
+    "post_md/《AI》Ollama.md",
     "post_html/《学习笔记》打包 Python.html",
     "post_html/《学习笔记》下载操作系统.html",
     "post_html/《学习笔记》下载 Office.html",
@@ -111,17 +119,8 @@
     "post_html/Share 软件分享.html",
     "post_html/index.html",
     "post_html/about.html",
-    "post_md/《学习笔记》Adb.md",
-    "post_md/《AI》Ollama.md",
     "post_md/《学习笔记》打包 Python.md",
-    "post_md/《学习笔记》下载 Office.md",
-    "post_md/《学习笔记》Git.md",
-    "post_md/《学习笔记》下载操作系统.md",
-    "post_md/about.md",
-    "post_md/index.md",
-    "post_md/Share 软件分享.md",
     "post_html/电脑操作系统.html",
-    "post_html/Python.html",
     "index.md",
     "config/index.md",
     "config/about.md",

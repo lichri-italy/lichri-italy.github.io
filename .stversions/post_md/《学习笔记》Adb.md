@@ -1,4 +1,8 @@
-### 连接 adb
+## 操作步骤
+
+下载 [Adb 便携包](https://suanpersonale-my.sharepoint.com/:u:/g/personal/suan_suanpersonale_onmicrosoft_com/Ef9BMRkeAk9JntkCaMaHKh4BkEdp4tawMTbMxHNFDngVqQ?e=ACPWH0)
+
+连接 adb
 
 `adb connect 127.0.0.1:58526`
 
