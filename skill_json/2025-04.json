@@ -1,12 +1,5 @@
 [
     {
-        "filename": "Share 软件分享",
-        "metadata": {
-            "date": "2025-04-01"
-        },
-        "content_html": "<p><a href=\"https://drive.google.com/drive/folders/1lcbtPDlZL9LbzZT68X1SeVQUBKe2tqhg?usp=sharing\">Link</a></p>"
-    },
-    {
         "filename": "《学习笔记》Adb",
         "metadata": {
             "date": "2025-04-03"
@@ -25,7 +18,7 @@
         "metadata": {
             "date": "2025-04-06"
         },
-        "content_html": "<p>配置 <a href=\"https://config.office.com/deploymentsettings\">office 版本自定义工具</a></p>\n<p>安装 office</p>\n<p><code>setup /download config.xml</code></p>\n<p><code>setup /configure config.xml</code></p>\n<p>KMS 激活</p>\n<p><code>cd C:\\Program Files\\Microsoft Office\\Office16</code></p>\n<p><code>cscript ospp.vbs /sethst:kms.03k.org</code></p>\n<p><code>cscript ospp.vbs /act</code></p>\n<p>注意：如果你安装的是32位版本，那么启动命令第一个要改成：<code>cd C:\\Program Files (x86)\\Microsoft Office\\Office16</code></p>\n<p>要删除以前的许可证和缓存的帐户信息：点击下载 <a href=\"https://download.microsoft.com/download/e/1/b/e1bbdc16-fad4-4aa2-a309-2ba3cae8d424/OLicenseCleanup.zip\">OLicenseCleanup.zip</a> 文件，管理员运行 <code>OLicenseCleanup.vbs</code>。</p>"
+        "content_html": "<p>配置 <a href=\"https://config.office.com/deploymentsettings\">office 版本自定义工具</a></p>\n<p>安装 office</p>\n<p><code>setup /download config.xml</code></p>\n<p><code>setup /configure config.xml</code></p>\n<p>KMS 激活</p>\n<p><code>cd C:\\Program Files\\Microsoft Office\\Office16</code></p>\n<p><code>cscript ospp.vbs /sethst:kms.03k.org</code></p>\n<p><code>cscript ospp.vbs /act</code></p>\n<p>注意：如果你安装的是32位版本，那么启动命令第一个要改成：<code>cd C:\\Program Files (x86)\\Microsoft Office\\Office16</code></p>\n<p>要删除以前的许可证和缓存的帐户信息：点击下载 <a href=\"https://download.microsoft.com/download/e/1/b/e1bbdc16-fad4-4aa2-a309-2ba3cae8d424/OLicenseCleanup.zip\">OLicenseCleanup.zip</a> 文件，管理员运行 <code>OLicenseCleanup.vbs</code></p>"
     },
     {
         "filename": "《学习笔记》下载操作系统",
@@ -40,5 +33,12 @@
             "date": "2025-04-04"
         },
         "content_html": "<p><code>pip install pyinstaller</code></p>\n<p><code>pyinstaller --onefile --noconsole your_script.py</code></p>\n<p>PyInstaller 将会开始打包你的项目，并在打包完成后生成一个 dist 文件夹，其中包含了打包好的 .exe 文件以及项目的依赖项。</p>"
+    },
+    {
+        "filename": "《软件分享》谷歌云盘",
+        "metadata": {
+            "date": "2025-04-01"
+        },
+        "content_html": "<p><a href=\"https://drive.google.com/drive/folders/1lcbtPDlZL9LbzZT68X1SeVQUBKe2tqhg?usp=sharing\">Link</a></p>"
     }
 ]
