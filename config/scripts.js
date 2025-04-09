@@ -65,26 +65,22 @@ class NoteLoader {
     }
 }
 
-// diary-html.js
+// diary.js
 class DiaryLoader extends NoteLoader {
     generateNoteHTML(note) {
         const metadata = note.metadata;
         const content = note.content_html;
 
-        const modifiedContent = content.replace(/<img src="([^"]+)"/g, (match, src) => {
-            return `<img src="" data-src="${src}" alt="${src.split('/').pop()}" />`;
-        });
-    
         return `
             <div class="container-content">
                 <div class="data">${metadata.date}</div>
-                <p>${modifiedContent}</p>
+                <p>${content}</p>
             </div>
         `;
     }
 }
 
-// skill-text.js
+// skill.js
 class SkillLoader extends NoteLoader {
     generateNoteHTML(note) {
         const filename = note.filename;
