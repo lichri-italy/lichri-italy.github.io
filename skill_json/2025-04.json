@@ -1,19 +1,5 @@
 [
     {
-        "filename": "《学习笔记》Adb",
-        "metadata": {
-            "date": "2025-04-03"
-        },
-        "content_html": "<p>连接 adb：<code>adb connect 127.0.0.1:58526</code></p>\n<p>安装应用：<code>adb install 安装包路径</code></p>\n<p>查看应用列表：<code>adb shell pm list packages</code></p>\n<p>查看应用包名：<code>adb shell am monitor</code></p>\n<p>删除应用：<code>adb shell pm uninstall -k --user 0 应用包名</code></p>"
-    },
-    {
-        "filename": "《学习笔记》Git",
-        "metadata": {
-            "date": "2025-04-02"
-        },
-        "content_html": "<p>配置用户名和邮箱</p>\n<p><code>git config --global user.name</code> \"你的用户名\"</p>\n<p><code>git config --global user.email</code> \"你的邮箱\"</p>\n<p>这将设置全局用户名和邮箱，以便在提交时识别身份。</p>\n<p>生成SSH密钥</p>\n<p><code>ssh-keygen -t rsa</code></p>\n<p>将生成的公钥添加到GitHub账户的SSH设置中。</p>\n<p>回退到某个 commit</p>\n<p><code>git log</code></p>\n<p><code>git reset --hard 哈希值</code></p>"
-    },
-    {
         "filename": "《学习笔记》下载 Office",
         "metadata": {
             "date": "2025-04-06"
@@ -33,6 +19,20 @@
             "date": "2025-04-04"
         },
         "content_html": "<p><code>pip install pyinstaller</code></p>\n<p><code>pyinstaller --onefile --noconsole your_script.py</code></p>\n<p>PyInstaller 将会开始打包你的项目，并在打包完成后生成一个 dist 文件夹，其中包含了打包好的 .exe 文件以及项目的依赖项。</p>"
+    },
+    {
+        "filename": "《学习笔记》Adb",
+        "metadata": {
+            "date": "2025-04-03"
+        },
+        "content_html": "<p>连接 adb：<code>adb connect 127.0.0.1:58526</code></p>\n<p>安装应用：<code>adb install 安装包路径</code></p>\n<p>查看应用列表：<code>adb shell pm list packages</code></p>\n<p>查看应用包名：<code>adb shell am monitor</code></p>\n<p>删除应用：<code>adb shell pm uninstall -k --user 0 应用包名</code></p>"
+    },
+    {
+        "filename": "《学习笔记》Git",
+        "metadata": {
+            "date": "2025-04-02"
+        },
+        "content_html": "<p>配置用户名和邮箱</p>\n<p><code>git config --global user.name</code> \"你的用户名\"</p>\n<p><code>git config --global user.email</code> \"你的邮箱\"</p>\n<p>这将设置全局用户名和邮箱，以便在提交时识别身份。</p>\n<p>生成SSH密钥</p>\n<p><code>ssh-keygen -t rsa</code></p>\n<p>将生成的公钥添加到GitHub账户的SSH设置中。</p>\n<p>回退到某个 commit</p>\n<p><code>git log</code></p>\n<p><code>git reset --hard 哈希值</code></p>"
     },
     {
         "filename": "《软件分享》谷歌云盘",
