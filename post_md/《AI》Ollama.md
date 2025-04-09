@@ -1,1 +1,0 @@
-和Ollama搭配的Ui页面插件：[Page Assist - Chrome 应用商店](https://chromewebstore.google.com/detail/page-assist-%E6%9C%AC%E5%9C%B0-ai-%E6%A8%A1%E5%9E%8B%E7%9A%84-web/jfgfiigpkhlkbnfnbobbkinehhfdhndo)

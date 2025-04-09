@@ -1,9 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
-}
+
 
 header {
     text-align: center;
@@ -11,9 +6,15 @@ header {
 }
 
 h1 {
+    margin: 0;
     color: #333;
     text-align: center;
 }
+
+h3 {
+    margin: 0;
+}
+
 
 a, a:link, a:visited, a:hover, a:active {
     color: rgb(101, 170, 222);
@@ -48,19 +49,12 @@ footer {
     font-size: 0.9em;
     color: #777;
 }
-.body-text {
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 60%; /* 设置宽度为屏幕的60% */
-    margin: 0 auto; /* 居中对齐 */
-}
+
 
 @media (max-width: 600px) {
     .body-text {
-        width: 90%; /* 在小屏幕上设置为100%的宽度 */
-        padding: 10px; /* 可选：减少内边距以适应小屏幕 */
+        width: 90%;
+        padding: 10px;
     }
 }
 
@@ -85,13 +79,111 @@ footer {
 }
 
 p code {
-    background: #5c5c5c; /* 深色背景 */
-    color: rgb(255, 255, 255); /* 字体颜色 */
-    font-family: Consolas; /* 代码字体 */
-    text-align: left; /* 左对齐 */
-    padding: 3px; /* 内边距 */
-    border-radius: 5px; /* 圆角边框 */
-    overflow: auto; /* 超出部分可滚动 */
-	white-space: pre; /* 保持空格和换行 */
-    font-size: calc(1em - 4px); /* 设置字体大小为比正常小 2px */
+    background: #5c5c5c;
+    color: rgb(255, 255, 255);
+    font-family: Consolas;
+    text-align: left;
+    padding: 3px;
+    border-radius: 5px;
+    overflow: auto;
+    white-space: pre-wrap;
+    font-size: calc(1em - 4px);
+    box-decoration-break: clone; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    --global_background: #f8f8f8;
+    --main-text-color: #292929;
+}
+  
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--global_background);
+    color: var(--main-text-color);
+    margin: 0;
+    padding: 20px;
+}
+
+.body-text {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+#container-diary > .container-content {
+    background: var(--global_background);
+    padding: 10px;
+    margin: 40px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#container-diary > .container-content .data {
+    font-weight: bold;
+}
+
+#container-diary > .container-content .p {
+    margin: 0;
+}
+
+#container-skill > .container-content {
+    background: var(--global_background);
+    padding: 10px;
+    margin: 40px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#container-skill > .container-content .filename {
+    font-weight: bold;
+}
+
+#container-skill > .container-content .p {
+    margin: 0;
+}
+
+
+
+
+
+
+.popup-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
