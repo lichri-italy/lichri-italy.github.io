@@ -4,7 +4,7 @@
         "metadata": {
             "date": "2025-04-06"
         },
-        "content_html": "<p>配置 <a href=\"https://config.office.com/deploymentsettings\">office 版本自定义工具</a></p>\n<p>安装 office</p>\n<p><code>setup /download config.xml</code></p>\n<p><code>setup /configure config.xml</code></p>\n<p>KMS 激活</p>\n<p><code>cd C:\\Program Files\\Microsoft Office\\Office16</code></p>\n<p><code>cscript ospp.vbs /sethst:kms.03k.org</code></p>\n<p><code>cscript ospp.vbs /act</code></p>\n<p>注意：如果你安装的是32位版本，那么启动命令第一个要改成：<code>cd C:\\Program Files (x86)\\Microsoft Office\\Office16</code></p>\n<p>要删除以前的许可证和缓存的帐户信息：点击下载 <a href=\"https://download.microsoft.com/download/e/1/b/e1bbdc16-fad4-4aa2-a309-2ba3cae8d424/OLicenseCleanup.zip\">OLicenseCleanup.zip</a> 文件，管理员运行 <code>OLicenseCleanup.vbs</code></p>"
+        "content_html": "<p>配置 <a href=\"https://config.office.com/deploymentsettings\">office 版本自定义工具</a></p>\n<p>安装 office</p>\n<p><code>setup /download config.xml</code></p>\n<p><code>setup /configure config.xml</code></p>\n<p>KMS 激活</p>\n<p><code>cd C:\\Program Files\\Microsoft Office\\Office16</code></p>\n<p><code>cscript ospp.vbs /sethst:kms.03k.org</code></p>\n<p><code>cscript ospp.vbs /act</code></p>\n<p>要删除以前的许可证和缓存的帐户信息：点击下载 <a href=\"https://download.microsoft.com/download/e/1/b/e1bbdc16-fad4-4aa2-a309-2ba3cae8d424/OLicenseCleanup.zip\">OLicenseCleanup.zip</a> 文件，管理员运行 <code>OLicenseCleanup.vbs</code></p>"
     },
     {
         "filename": "《学习笔记》下载操作系统",
@@ -32,7 +32,7 @@
         "metadata": {
             "date": "2025-04-02"
         },
-        "content_html": "<p>配置用户名和邮箱</p>\n<p><code>git config --global user.name</code> \"你的用户名\"</p>\n<p><code>git config --global user.email</code> \"你的邮箱\"</p>\n<p>这将设置全局用户名和邮箱，以便在提交时识别身份。</p>\n<p>生成SSH密钥</p>\n<p><code>ssh-keygen -t rsa</code></p>\n<p>将生成的公钥添加到GitHub账户的SSH设置中。</p>\n<p>回退到某个 commit</p>\n<p><code>git log</code></p>\n<p><code>git reset --hard 哈希值</code></p>"
+        "content_html": "<p>配置用户名和邮箱</p>\n<p><code>git config --global user.name</code> \"你的用户名\"</p>\n<p><code>git config --global user.email</code> \"你的邮箱\"</p>\n<p>生成SSH密钥，将公钥添加到GitHub账户的SSH设置中</p>\n<p><code>ssh-keygen -t rsa</code></p>\n<p>回退到某个 commit</p>\n<p><code>git log</code></p>\n<p><code>git reset --hard 哈希值</code></p>"
     },
     {
         "filename": "《软件分享》谷歌云盘",
